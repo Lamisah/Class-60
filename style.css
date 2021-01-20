@@ -1,0 +1,26 @@
+#apps{
+    background: linear-gradient(red,blue);
+    text-align: center;
+}
+#games{
+    background: linear-gradient(pink,blue);
+    text-align: center;
+}
+#chatbot{
+    background: linear-gradient(cyan,purple);
+    text-align: center;
+}
+img{
+    width: 400px;
+    height: 400px;
+    transition: transform .2s;
+}
+img:hover{
+    transform: scale(0.9);
+}
+.line{
+    width: 60px;
+    height: 6px;
+    background-color: black;
+    margin: 8px auto;
+}
